@@ -10,15 +10,15 @@ Biblioteca  -->  Prestamo
 Usuario  -->  Prestamo
 Libro  -->  Prestamo
 
-    class Libro {
-    +int idUnico
-    +String titulo
-    +String autor
-    +String genero
-    +String estado
-    +prestar()
-    +devolver()
-    +mostrarInfo()
+class Libro {
++int idUnico
++String titulo
++String autor
++String genero
++String estado
++prestar()
++devolver()
++mostrarInfo()
 }
 
 class Usuario {
